@@ -1,16 +1,26 @@
 const graphPoints = [
-  [1, 0, 0],
-  [0, 1, 0],
-  [1, 1, 1]
+  [1, 1, 1],
+  [1, 1, 0],
+  [1, 1, 1],
+
+
 ];
 
 
 const graphEdges = [
-  {startPoint: [1, 1], endPoint: [2, 2]},
-  {startPoint: [1, 1], endPoint: [3, 1]},
-  {startPoint: [2, 2], endPoint: [3, 1]},
-  {startPoint: [2, 2], endPoint: [3, 3]},
-  {startPoint: [3, 1], endPoint: [3, 2]}
+  {startPoint: [1, 1], endPoint: [2, 1]},
+  {startPoint: [1, 1], endPoint: [1, 2]},
+  {startPoint: [2, 1], endPoint: [3,1]},
+  {startPoint: [3, 1], endPoint: [3,2]},
+  {startPoint: [3, 2], endPoint: [3,3]},
+  {startPoint: [1, 3], endPoint: [3,3]},
+  {startPoint: [1, 2], endPoint: [1,3]},
+  {startPoint: [1, 2], endPoint: [2,1]},
+  {startPoint: [1, 2], endPoint: [2,2]},
+  {startPoint: [2, 2], endPoint: [3,2]},
+  {startPoint: [2, 1], endPoint: [2,2]},
+  {startPoint: [1,2], endPoint: [3,3]},
+  {startPoint: [2,2], endPoint: [3,3]},
 ];
 
 const colors = ['blue', 'black', 'green', 'purple', 'yellow'];
